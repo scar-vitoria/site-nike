@@ -1,0 +1,186 @@
+*{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+
+/* -------------- Cabeçalho ------------- */
+.estilo-li{margin-top: 2mm; margin-bottom: 2mm; float: right;}
+.estilo-a{color: black; display: block; padding: 0px 15px; margin-top: 5mm; margin-bottom: 2mm}
+
+/* -------------- Menu ------------- */
+.margem{
+  margin: 0 2em 1em 2em;
+  background-color: white;
+}
+  
+.tabela {
+  /*tira as bolinhas da linha*/
+  list-style-type: none;
+  margin: 0;
+  /*eenchimento entre cada elemento <a>*/
+  padding: 0;
+  overflow: hidden;
+}
+
+.linha{
+  float: right;
+}
+
+.linha a {
+  /*permite especificar o preenchimento*/
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-bottom: 2px solid black;
+}
+
+header {   
+  position: sticky;   
+  top: 0; 
+}
+
+/*--------------- Busca ---------------*/
+#btn-busca{
+  border-radius:15px;
+  justify-items: center;
+  padding: 20px 10px;
+}
+
+#texto-busca{
+  float:left;
+  display: block;
+  background-color:transparent;
+  border: none;
+  height:15px;
+  width:100px;
+}
+
+
+/* -------------- Rodapé ------------- */
+.rodape {
+  float: left;
+  display: flex;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.margem-rodape{
+  margin: 25px 3.5em 0 3.5em;
+}
+
+/* -------------- Principal ------------- */
+
+.container-inicio {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #ebeaea;
+  float: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-bottom: 30px;
+}
+
+.h1-inicio{
+  font-size: 30px;
+  margin: 20px 1em 1em 1em;
+}
+
+
+/* -------------- Botão saber mais ------------- */
+.container {
+  width: 50%;
+  text-align: center;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  margin-left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+/* -------------- Mensagem------------- */
+.msg {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-bottom: 2px;
+  text-align: center;
+  padding: 8px;
+}
+
+
+/* -------------- Upload Imagem ------------- */
+input[type='file'] {
+  display: none
+}
+
+/* Aparência que terá o seletor de arquivo */
+label {
+  background-color:#c2c2c2;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 6px 20px
+}
+
+/* -------------- Imagem e desc - view Tenis ------------- */
+.faixa ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.faixa ul li {
+	display: block;
+  float: left;
+  padding: 0.1mm;
+}
+
+
+
+/* Dashboard */
+.dashboard-title-principal {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.dashboard-tenis-container th {
+  width: 25%;
+}
+
+.dashboard-tenis-container form {
+  display: inline-block;
+}
+
+
+  
